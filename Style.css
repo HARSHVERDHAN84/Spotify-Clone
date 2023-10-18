@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Varela+Round&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Varela Round", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: wheat;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.Brand img {
+  width: 68px;
+  padding: 0 8px;
+}
+.Brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.34rem;
+}
+
+.container{
+    position: relative;
+    top: 500px;
+}
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myProgessBar{
+    width: 80vw;
+    text-align: center;
+}
