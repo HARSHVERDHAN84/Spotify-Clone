@@ -4,6 +4,7 @@
 body {
   background-color: antiquewhite;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,7 @@ nav ul {
   align-items: center;
   list-style-type: none;
   height: 65px;
-  background-color: wheat;
+  background-color: rgb(227, 225, 219);
 }
 nav ul li {
   padding: 0 12px;
@@ -35,19 +36,42 @@ nav ul li {
 }
 
 .container{
-    position: relative;
-    top: 500px;
-}
-.bottom {
-    position: sticky;
-    height: 130px;
+   
     background-color: black;
-    bottom: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 34px;
+    margin-top: 80px;
+    background-image: url('aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg');
+}
+
+.bottom {
+     
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
-}
-#myProgessBar{
-    width: 80vw;
+    justify-content: center;
     text-align: center;
+    height: 20vh;
+    margin-left: 220px;
+    margin-top: 480px;
 }
+.icons{
+  margin-top: 14px;
+  height: 50%;
+  width: 50%;
+}
+.icons{
+  cursor: pointer;
+}
+.songList h1{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ 
+
